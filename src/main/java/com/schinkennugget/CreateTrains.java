@@ -1,5 +1,6 @@
 package com.schinkennugget;
 
+import com.schinkennugget.block.CreateTrainsBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class CreateTrains implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		CreateTrainsBlocks.init();
 	}
 }
