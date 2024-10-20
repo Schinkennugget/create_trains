@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=east": {
-      "model": "smlexample:block/facing_obj_model_block",
+      "model": "create_trains:block/db_423_block",
       "y": 90
     },
     "facing=north": {
-      "model": "smlexample:block/facing_obj_model_block"
+      "model": "create_trains:block/db_423_block"
     },
     "facing=south": {
-      "model": "smlexample:block/facing_obj_model_block",
+      "model": "create_trains:block/db_423_block",
       "y": 180
     },
     "facing=west": {
-      "model": "smlexample:block/facing_obj_model_block",
+      "model": "create_trains:block/db_423_block",
       "y": 270
     }
   }

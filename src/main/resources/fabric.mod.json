@@ -18,6 +18,9 @@
 		"main": [
 			"com.schinkennugget.CreateTrains"
 		],
+		"client": [
+			"com.schinkennugget.client.CreateTrainsClient"
+		],
 		"fabric-datagen": [
 			"com.schinkennugget.CreateTrainsDataGenerator"
 		]

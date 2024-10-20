@@ -1,6 +1,5 @@
 {
   "parent": "special-model-loader:builtin/obj",
   "ambientocclusion": false,
-  "flip_v": true,
-  "model": "create_trains:models/block/db423.obj"
+  "model": "create_trains:models/block/db_423_block.obj"
 }

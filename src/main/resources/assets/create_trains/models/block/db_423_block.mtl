@@ -1,4 +1,4 @@
 # Made in Blockbench 4.11.1
 newmtl m_c5e4e64d-2691-d5fd-2abb-a12192063205
-map_Kd db423_texture.png
+map_Kd create_trains:block/db_423_block
 newmtl none
