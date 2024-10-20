@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "create_trains",
+	"version": "0.1.0",
+	"name": "Create: Trains & Additions",
+	"description": "Adds several detailed, but still minecrafty looking models of trains to be used with the Create Mod.",
+	"authors": [
+		"Schinkennugget"
+	],
+	"contact": {
+		"modrinth": "https://modrinth.com/mod/create-trains-additions",
+		"discord": "https://discord.gg/nTVM38Vcyg"
+	},
+	"license": "MIT",
+	"icon": "assets/create_trains/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.schinkennugget.CreateTrains"
+		],
+		"fabric-datagen": [
+			"com.schinkennugget.CreateTrainsDataGenerator"
+		]
+	},
+	"mixins": [
+		"create_trains.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "create"
+	}
+}
